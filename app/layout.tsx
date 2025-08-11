@@ -16,7 +16,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${source_sans_3.className} dark antilalised`}>
-        this is a learning website
       
         {children}
       </body>

@@ -8,7 +8,8 @@ export default function RootLayout({
 }>) {
   return (
     <main className="grid grid-cols-12">
-      <div className="bg-red-900 col-span-2 h-screen"> 
+      <div className="bg-blue-200 col-span-2 h-screen"> 
+
         
         <Sidebar/>
         
@@ -16,7 +17,7 @@ export default function RootLayout({
 
       </div>
 
-      <div className="col-span-10 h-screen bg-gray-100 dark:bg-gray-900">
+      <div className="col-span-10 h-screen bg-purple-900 dark:bg-gray-900">
         {children}
       </div>
 

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import NavBar from "./Components/nav/NavBar";
 import {Source_Sans_3} from 'next/font/google'
-const source_sans_3= Source_Sans_3 ({weight:['300','400','700'], subsets: ["latin"]})
+const source_sans_3= Source_Sans_3 ({weight:['300','500','200'], subsets: ["latin"]})
 export const metadata: Metadata = {
   title: "EduTunnel",
   description: "This is a learning website",
